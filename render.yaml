@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: bouncewars
-    runtime: node
-    plan: free
-    startCommand: node server.js
-    healthCheckPath: /healthz
